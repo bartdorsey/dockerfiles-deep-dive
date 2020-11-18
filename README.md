@@ -184,7 +184,7 @@ that image with the proper port. Remember to name your container, and, if you'd
 like, you can run in detached mode.
 
 ```bash 
-docker container run -p 8080:80 --name deep1 -d abc/deep-dive-phase-1
+docker container run -p 80:8080 --name deep1 -d abc/deep-dive-phase-2
 ```
 
 In your browser, go to [http://localhost:8081][local-express-url]. If 
